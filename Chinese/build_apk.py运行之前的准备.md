@@ -16,7 +16,7 @@
 
 **运行Python脚本`build_apk.py`前的准备工作：**
 
-1.  **Python环境：** 确保系统上安装了Python 3.8至3.10版本。若遇到兼容性问题，可以使用如Miniconda的工具进行管理。 
+1.  **Python环境：** 确保系统上安装了Python 3.8至3.10版本。若遇到兼容性问题，可以使用如[Miniconda](https://docs.anaconda.com/free/miniconda/)的工具进行管理。 
 2.  **高通开发环境配置：** 
    - 注册并填写高通的相关协议[Agreements](https://www.qualcomm.com/agreements)。
    - 从[Qualcomm Package Manager](https://qpm.qualcomm.com/#/main/tools/details/QPM3)下载QPM3，并在Linux上安装。
@@ -42,16 +42,17 @@
 为了确保顺畅执行命令行脚本，请遵循以下详细步骤：
 
 ### 准备阶段
-1. **检查Git LFS**: 确认已安装`git lfs`，这是为了能够处理大型文件。如果尚未安装，请参照[git-lfs/README.md](https://github.com/git-lfs/git-lfs/blob/main/README.md)中的指南操作。
+1. **检查Git LFS**: 确认已安装`git lfs`，这是为了能够处理大型文件。如果尚未安装会导致[文件1KB]()
+2. 请参照[git-lfs/README.md](https://github.com/git-lfs/git-lfs/blob/main/README.md)中的指南操作。
 
-2. **设置Gradle镜像源**: 遇到`gradle-7.4-bin.zip`下载速度缓慢时，可更改为更快的镜像源。
+3. **设置Gradle镜像源**: 遇到`gradle-7.4-bin.zip`下载速度缓慢时，可更改为更快的镜像源。
    1. 例如，对于中国大陆用户，可采用[腾讯云的镜像源](https://mirrors.cloud.tencent.com/gradle/)。找到对应的`gradle-7.4-bin.zip`，复制其链接，<br />
    并在目录`gradle/wrapper/gradle-wrapper.properties`文件中替换`distributionUrl=`的链接部分。   
        修改后的`distributionUrl=`文件应如下所示：
          ```  
          distributionUrl=https://mirrors.cloud.tencent.com/gradle/gradle-7.4-bin.zip
          ```
-3. **修正脚本格式**: 如果遭遇`/usr/bin/env: ‘sh\r’: No such file or directory`错误，表明脚本首行存在格式问题（Windows风格的换行符）。使用命令`sed -i -e 's/\r$//' gradlew`将其转换为Unix格式。
+4. **修正脚本格式**: 如果遭遇`/usr/bin/env: ‘sh\r’: No such file or directory`错误，表明脚本首行存在格式问题（Windows风格的换行符）。使用命令`sed -i -e 's/\r$//' gradlew`将其转换为Unix格式。
 
 ### 克隆项目
 从GitHub克隆`quic/ai-hub-models`仓库至适当位置：

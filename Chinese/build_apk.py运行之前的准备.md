@@ -32,7 +32,7 @@
       - 验证`/opt/qcom/aistack/qairt/2.21.0.240401/lib/android`目录即是下是否获取到了`qtld-release.aar`文件。
 3.  **QNN SDK：** 脚本运行时需指定QNN SDK路径，该SDK应包含构建Android应用所需的库和工具。通常路径为`/opt/qcom/aistack/qairt/2.21.0.240401`。 
 4.  **Android Studio安装与环境变量配置：** 
-   - 在[  linux下 Android studio的安装](https://github.com/fangxingSR/ai-hub-models_-help/Chinese/linux下AndroidStudio的安装配置.md)
+   - 在[  linux下 Android studio的安装](https://github.com/fangxingSR/ai-hub-models_-help/blob/main/Chinese/linux%E4%B8%8BAndroidStudio%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE.md)
    - 确保ADB工具环境变量配置正确，以便与Android设备交互，包括安装和运行APK。
 5.  **Android设备：** 如果选择在设备上安装和运行APK，确保有一台Android设备连接到电脑。 
 6.  **模型文件：** 如果不打算在代码运行时从AI HUB下载模型，可以提前下载[MobileNet-v3-Small](https://aihub.qualcomm.com/mobile/models/mobilenet_v3_small)模型，并在`build_apk.py`使用时提供其路径。 

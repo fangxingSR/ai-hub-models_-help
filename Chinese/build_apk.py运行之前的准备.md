@@ -58,7 +58,6 @@
 git clone https://github.com/quic/ai-hub-models.git
 ```
 ```bash
-git clone https://github.com/quic/ai-hub-models.git
 cd ai-hub-models/apps/android/ImageClassification
 ```
 

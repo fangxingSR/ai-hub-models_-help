@@ -36,8 +36,9 @@
    - 确保ADB工具环境变量配置正确，以便与Android设备交互，包括安装和运行APK。
 5.  **Android设备：** 如果选择在设备上安装和运行APK，确保有一台Android设备连接到电脑。 
 6.  **模型文件：** 如果不打算在代码运行时从AI HUB下载模型，可以提前下载[MobileNet-v3-Small](https://aihub.qualcomm.com/mobile/models/mobilenet_v3_small)模型，并在`build_apk.py`使用时提供其路径。 
-7.  **文件权限：** 确保`./gradlew`文件具有执行权限，以避免PermissionError错误。 
-   1. 可以使用`chmod +x gradlew` 提升权限
+7.  **文件权限：** 确保`./gradlew`文件具有执行权限，
+    - 以避免`PermissionError: [Errno 13] Permission denied: './gradlew'`的错误。 
+    - 可以使用`chmod +x gradlew` 提升权限
 
 为了确保顺畅执行命令行脚本，请遵循以下详细步骤：
 

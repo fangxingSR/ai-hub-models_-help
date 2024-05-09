@@ -14,7 +14,7 @@
 - 在Windows环境下，未能成功获取到`qtld-release.aar`文件，因此推荐在Linux系统中操作。
 - Android Studio主要用于获取SDK和NDK。若从网页端下载模型，
 
-**运行Python脚本**`**build_apk.py**`**前的准备工作：**
+**运行Python脚本`build_apk.py`前的准备工作：**
 
 1.  **Python环境：** 确保系统上安装了Python 3.8至3.10版本。若遇到兼容性问题，可以使用如Miniconda的工具进行管理。 
 2.  **高通开发环境配置：** 

@@ -9,7 +9,7 @@
 
 1. **配置PackageCloud存储库**：首先，根据您的操作系统，通过终端运行相应的脚本以添加Git LFS的PackageCloud仓库。对于基于Debian的系统（如Ubuntu），使用如下命令：
 ```
-1curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 ```
 而对于基于RPM的系统（如CentOS），则执行：
 ```
@@ -20,10 +20,10 @@
    - 对于Debian系：
    - 对于RPM系：
 ```
-1sudo apt-get install git-lfs
+sudo apt-get install git-lfs
 ```
 ```
-1sudo yum install git-lfs
+sudo yum install git-lfs
 ```
 
 3. **初始化Git LFS**：安装完成后，通过运行git lfs install命令来设置Git LFS的钩子，确保它能与Git协同工作。成功执行后，你将看到如下信息：

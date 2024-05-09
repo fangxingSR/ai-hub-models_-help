@@ -13,7 +13,7 @@ curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.s
 ```
 而对于基于RPM的系统（如CentOS），则执行：
 ```
-1curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh | sudo bash
 ```
 
 2. **安装Git LFS**：完成仓库配置后，通过系统的包管理器安装Git LFS：

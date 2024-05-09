@@ -56,6 +56,9 @@
 从GitHub克隆`quic/ai-hub-models`仓库至适当位置：
 ```bash
 git clone https://github.com/quic/ai-hub-models.git
+```
+```bash
+git clone https://github.com/quic/ai-hub-models.git
 cd ai-hub-models/apps/android/ImageClassification
 ```
 

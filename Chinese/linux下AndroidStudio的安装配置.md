@@ -30,12 +30,12 @@
 ```sh
 vim ~/.bashrc
 ```
-在文件末尾添加如下内容（记得替换`user`为你的用户名，以及`ndk/<your_ndk_version>`检查替换为你NDK的实际版本和路径）：
+在文件末尾添加如下内容（记得替换`user`为你的用户名，以及`ndk/your_ndk_version`检查替换为你NDK的实际版本和路径）：
 ```sh
 export ANDROID_HOME=/home/user/Android/Sdk
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
-export NDK_HOME=$ANDROID_HOME/ndk/<your_ndk_version>
+export NDK_HOME=$ANDROID_HOME/ndk/your_ndk_version
 export PATH=$PATH:$NDK_HOME
 ```
 保存更改后，使配置生效：

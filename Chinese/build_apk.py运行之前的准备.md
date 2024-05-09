@@ -42,7 +42,7 @@
 为了确保顺畅执行命令行脚本，请遵循以下详细步骤：
 
 ### 准备阶段
-1. **检查Git LFS**: 确认已安装`git lfs`，这是为了能够处理大型文件。如果尚未安装会导致[文件1KB]()
+1. **检查Git LFS**: 确认已安装`git lfs`，这是为了能够处理大型文件。如果尚未安装会导致[文件1KB](https://github.com/fangxingSR/ai-hub-models_-help/blob/main/Chinese/gradle-wrapper.jar1KB%E7%9A%84%E9%97%AE%E9%A2%98.md)
 2. 请参照[git-lfs/README.md](https://github.com/git-lfs/git-lfs/blob/main/README.md)中的指南操作。
 
 3. **设置Gradle镜像源**: 遇到`gradle-7.4-bin.zip`下载速度缓慢时，可更改为更快的镜像源。

@@ -35,8 +35,6 @@ vim ~/.bashrc
 export ANDROID_HOME=/home/user/Android/Sdk
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
-export NDK_HOME=$ANDROID_HOME/ndk/your_ndk_version
-export PATH=$PATH:$NDK_HOME
 ```
 保存更改后，使配置生效：
 ```sh

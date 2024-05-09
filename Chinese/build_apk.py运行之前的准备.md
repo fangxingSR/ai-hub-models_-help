@@ -42,7 +42,7 @@
 为了确保顺畅执行命令行脚本，请遵循以下详细步骤：
 
 ### 准备阶段
-1. **检查Git LFS**: 确认已安装`git lfs`，这是为了能够处理大型文件。如果尚未安装会导致[文件1KB](https://github.com/fangxingSR/ai-hub-models_-help/blob/main/Chinese/gradle-wrapper.jar1KB%E7%9A%84%E9%97%AE%E9%A2%98.md)可参照[git-lfs/README.md](https://github.com/git-lfs/git-lfs/blob/main/README.md)中的指南操作。
+1. **检查Git LFS**: 确认已安装`git lfs`，这是为了能够处理大型文件。如果尚未安装会导致[部分文件变成1KB](https://github.com/fangxingSR/ai-hub-models_-help/blob/main/Chinese/gradle-wrapper.jar1KB%E7%9A%84%E9%97%AE%E9%A2%98.md)。可参照[git-lfs/README.md](https://github.com/git-lfs/git-lfs/blob/main/README.md)中的指南操作。
 2. **设置Gradle镜像源**: 遇到`gradle-7.4-bin.zip`下载速度缓慢时，可更改为更快的镜像源。
    1. 例如，对于中国大陆用户，可采用[腾讯云的镜像源](https://mirrors.cloud.tencent.com/gradle/)。找到对应的`gradle-7.4-bin.zip`，复制其链接，<br />
    并在目录`gradle/wrapper/gradle-wrapper.properties`文件中替换`distributionUrl=`的链接部分。   

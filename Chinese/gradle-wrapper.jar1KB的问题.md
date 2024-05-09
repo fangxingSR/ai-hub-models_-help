@@ -28,8 +28,8 @@
 
 3. **初始化Git LFS**：安装完成后，通过运行git lfs install命令来设置Git LFS的钩子，确保它能与Git协同工作。成功执行后，你将看到如下信息：
 ```
-1Updated git hooks.
-2Git LFS initialized.
+Updated git hooks.
+Git LFS initialized.
 ```
 
 4. **验证文件完整性**：最后，通过检查gradle-wrapper.jar的大小或尝试打开它，来确认文件是否已恢复至正常状态。正确的安装与配置后，该文件应当不再是一个指针文件，而是包含实际数据的完整文件。
